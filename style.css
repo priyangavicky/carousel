@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+      background-image: url('Assets/image1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation-name: image;
+      animation-duration: 10s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+@keyframes image{
+    20%{
+        background-image: url(Assets/image2.jpg);
+    }
+    40%{
+        background-image: url(Assets/image3.jpg);
+    }
+    60%{
+        background-image: url(Assets/image4.jpg);
+    }
+    80%{
+        background-image: url(Assets/images5.jpg);
+    }
+    100%{
+        background-image: url(Assets/image6.jpg);
+    }
+}
